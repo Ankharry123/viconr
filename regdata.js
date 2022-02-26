@@ -8,7 +8,7 @@ const encoder = bodyParser.urlencoded();
 app.use(bodyParser.urlencoded({extended:true}));
 
 var connection=mysql.createConnection({
-    host:"localhost",
+    host:"192.168.64.2",
     user:"root",
     password:"Deathnote",
     database:"VIcon"
