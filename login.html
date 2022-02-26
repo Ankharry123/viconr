@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="login.css">
+</head>
+<body>
+ <form class="box" action="/" method="POST" name="myform" onsubmit="return validateForm()">
+
+    <h1>
+        Login
+    </h1>
+    <div class="formdesign" id="email">            
+        <p> EMAIL<input type="email" name="email" placeholder="email" required></p><span class="formerror"> </span>
+    </div>
+    <div class="formdesign" id="pass">
+        <p> PASSWORD<input type="password" name="password" placeholder="password" required></p><span class="formerror"> </span>
+    </div>
+        <button class="hover" type="submit" value="Submit">login</button>
+    <!-- <p class="message">Not Register? <a class="none" href="register.html">Register</a>
+    </p> -->
+ </form> 
+</body>
+<script src="login2.js"></script>
+</html>
