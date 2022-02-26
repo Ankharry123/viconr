@@ -5,7 +5,7 @@
   "main": "regdata.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "nodemon regdata.js"
+    "start": "node regdata.js"
   },
   "author": "",
   "license": "ISC",
