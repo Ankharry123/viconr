@@ -4,7 +4,6 @@ var bodyParser=require("body-parser");
 var app = express();
 var mysql=require('mysql');
 const encoder = bodyParser.urlencoded();
-port: '/var/run/mysqld/mysqld.sock'
 //bus kar abhi
 app.use(bodyParser.urlencoded({extended:true}));
 
