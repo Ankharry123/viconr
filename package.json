@@ -4,9 +4,8 @@
   "description": "",
   "main": "regdata.js",
   "scripts": {
-    "watch": "nodemon",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node regdata.js"
+    "start": "nodemon regdata.js"
   },
   "author": "",
   "license": "ISC",

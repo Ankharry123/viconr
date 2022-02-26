@@ -14,8 +14,8 @@ var connection=mysql.createConnection({
     password:"Deathnote",
     database:"VIcon"
 });
-app.listen(3000,function(){
-    console.log("VIcon listening at port 3342")
+app.listen(process.env.PORT || 3000,function(){
+    console.log("VIcon listening at port 3000")
 });
 //path of directory
 const register=path.join(__dirname,"../VIconr/register.html");
