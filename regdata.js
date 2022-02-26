@@ -3,7 +3,6 @@ var path=require("path");
 var bodyParser=require("body-parser");
 var app = express();
 var mysql=require('mysql');
-const pool=require('mysql/lib/pool');
 const encoder = bodyParser.urlencoded();
 //bus kar abhi
 app.use(bodyParser.urlencoded({extended:true}));
